@@ -13,7 +13,7 @@ import ProductCardThree from '@/components/sections/product/ProductCardThree';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import TextAbout from '@/components/sections/about/TextAbout';
-import { Zap, CircuitBoard, Monitor, Tool } from 'lucide-react';
+import { Zap, CircuitBoard, Monitor, Wrench } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -138,7 +138,7 @@ export default function LandingPage() {
           title: "Oprogramowanie SCADA/HMI",          description: "Tworzenie intuicyjnych interfejsów do kontroli i wizualizacji procesów przemysłowych.",          imageSrc: "http://img.b2bpic.net/free-photo/futuristic-technology-concept_23-2151908108.jpg",          imageAlt: "Oprogramowanie SCADA",          buttonIcon: Monitor,
         },
         {
-          title: "Serwis i Wsparcie Techniczne",          description: "Profesjonalne wsparcie, konserwacja i diagnostyka systemów automatyki, zapewniające ciągłość pracy.",          imageSrc: "http://img.b2bpic.net/free-photo/remote-control-sound-settings-from-tablet_169016-23700.jpg",          imageAlt: "Serwis techniczny",          buttonIcon: Tool,
+          title: "Serwis i Wsparcie Techniczne",          description: "Profesjonalne wsparcie, konserwacja i diagnostyka systemów automatyki, zapewniające ciągłość pracy.",          imageSrc: "http://img.b2bpic.net/free-photo/remote-control-sound-settings-from-tablet_169016-23700.jpg",          imageAlt: "Serwis techniczny",          buttonIcon: Wrench,
         },
       ]}
       title="Kompleksowe Usługi Automatyki"
@@ -207,19 +207,19 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/portrait-handsome-businessman-glasses-showing-okay-hand-sign-sitting-with-laptop-cafe-working-remotely-recommends-coworking-space_1258-314260.jpg",          imageAlt: "Marek Kowalski"},
         {
           id: "2",          name: "Anna Nowak",          role: "Kierownik Operacyjny",          company: "Tech Solutions",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-woman-therapy_23-2148928886.jpg",          imageAlt: "Anna Nowak"},
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-smiley-woman-therapy_23-2148928886.jpg",          alt: "Anna Nowak"},
         {
           id: "3",          name: "Piotr Zieliński",          role: "Dyrektor Zakładu",          company: "Industrial Group",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/greenhouse-owner-posing-with-folded-arms-having-many-flowers-colleague-holding-pot-with-pink-chrysanthemums-glass-roof_158595-7126.jpg",          imageAlt: "Piotr Zieliński"},
+          imageSrc: "http://img.b2bpic.net/free-photo/greenhouse-owner-posing-with-folded-arms-having-many-flowers-colleague-holding-pot-with-pink-chrysanthemums-glass-roof_158595-7126.jpg",          alt: "Piotr Zieliński"},
         {
           id: "4",          name: "Katarzyna Wójcik",          role: "Dyrektor R&D",          company: "InnoTech Labs",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-female-dentist-dentistry-concept-dental-treatment_169016-66972.jpg",          imageAlt: "Katarzyna Wójcik"},
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-female-dentist-dentistry-concept-dental-treatment_169016-66972.jpg",          alt: "Katarzyna Wójcik"},
         {
           id: "5",          name: "Michał Dąbrowski",          role: "Dyrektor Logistyki",          company: "Global Logistics",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-holding-clipboard_23-2149214304.jpg",          imageAlt: "Michał Dąbrowski"},
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-man-holding-clipboard_23-2149214304.jpg",          alt: "Michał Dąbrowski"},
         {
           id: "6",          name: "Ewa Kaczmarek",          role: "Inżynier Projektu",          company: "Future Automation",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/female-architect-with-thumb-up_1149-1128.jpg",          imageAlt: "Ewa Kaczmarek"},
+          imageSrc: "http://img.b2bpic.net/free-photo/female-architect-with-thumb-up_1149-1128.jpg",          alt: "Ewa Kaczmarek"},
       ]}
       title="Co mówią o nas klienci"
       description="Nasze sukcesy mierzymy zadowoleniem i pozytywnymi opiniami partnerów, z którymi współpracujemy."
